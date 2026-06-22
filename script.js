@@ -36,11 +36,11 @@ const defaultSiteData = {
       },
       {
         title: 'Porção Batata & Linguiça',
-        text: 'Porção generosa com batatas crocantes e linguiça suculenta — ideal para compartilhar.'
+        text: 'Porção generosa com batatas crocantes e carnes suculentas — ideal para compartilhar.'
       },
       {
         title: 'Iscas de Peixe',
-        text: 'Iscas crocantes servidas com molho especial e limão — leve e saboroso.'
+        text: 'Iscas crocantes — leve e saboroso.'
       },
       {
         title: 'Torresmo Crocante',
