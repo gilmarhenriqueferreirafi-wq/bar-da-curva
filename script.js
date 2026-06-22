@@ -70,7 +70,6 @@ const defaultSiteData = {
   contact: {
     label: 'Contato',
     heading: 'Venha nos visitar',
-    address: 'Rua da Curva, 123',
     hours: 'Aberto de terça a domingo, das 17h às 00h',
     phone0: 'Tel: (33) 9994-7787',
     phone1: 'Tel: (31) 8419-9037',
