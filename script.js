@@ -63,7 +63,8 @@ const defaultSiteData = {
       },
       {
         title: 'Noite de jogos',
-        text: 'Domingos para jogar, relaxar e aproveitar promoções especiais.'
+        title: 'Brasil x Escócia',
+        text: 'Transmissão ao vivo — venha torcer com a galera!'
       }
     ]
   },

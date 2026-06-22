@@ -249,17 +249,22 @@ textarea {
   padding: 2rem;
 }
 
-.menu-item img {
+.menu-figure img {
   width: 100%;
-  border-radius: 16px;
+  border-radius: 12px;
   margin-bottom: 1rem;
   object-fit: cover;
   aspect-ratio: 4 / 3;
   max-height: 260px;
+  display: block;
 }
 
 .menu-figure {
   margin: 0;
+  padding: 0.6rem;
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 16px;
+  border: 1px solid var(--border);
 }
 
 .menu-figcaption {
