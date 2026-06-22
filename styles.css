@@ -255,14 +255,12 @@ textarea {
   margin-bottom: 1rem;
   object-fit: cover;
   aspect-ratio: 4 / 3;
-  max-height: 260px;
-  display: block;
+   max-height: 190px;
+   display: block;
 }
 
-.menu-figure {
-  margin: 0;
-  padding: 0.6rem;
-  background: rgba(255, 255, 255, 0.02);
+.menu-item {
+  padding: 1.4rem;
   border-radius: 16px;
   border: 1px solid var(--border);
 }
