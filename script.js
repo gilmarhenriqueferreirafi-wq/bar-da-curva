@@ -72,7 +72,9 @@ const defaultSiteData = {
     heading: 'Venha nos visitar',
     address: 'Rua da Curva, 123',
     hours: 'Aberto de terça a domingo, das 17h às 00h',
-    phone: 'Tel: (00) 1234-5678',
+    phone: 'Tel: (33) 9994-7787',
+    phone0: 'Tel: (33) 9994-7787',
+    phone1: 'Tel: (31) 8419-9037',
     cardHeading: 'Reserve sua mesa',
     cardText: 'Envie uma mensagem com a data e o número de pessoas para garantir seu lugar.',
     email: 'contato@barbenrustico.com.br'
@@ -123,6 +125,8 @@ function applySiteData(data) {
   setText('#contact-address', data.contact.address);
   setText('#contact-hours', data.contact.hours);
   setText('#contact-phone', data.contact.phone);
+  setText('#contact-phone0', data.contact.phone0);
+  setText('#contact-phone1', data.contact.phone1);
   setText('#contact-card-heading', data.contact.cardHeading);
   setText('#contact-card-text', data.contact.cardText);
   const emailLink = document.querySelector('#contact-email');
