@@ -12,8 +12,7 @@ const defaultSiteData = {
     hint: 'Traga os amigos para uma noite especial.',
     text:
       'No Bar da Curva você encontra petiscos saborosos, cervejas artesanais e uma atmosfera rústica com conforto caseiro.',
-    buttonPrimary: 'Ver cardápio',
-    buttonSecondary: 'Reservar mesa'
+    buttonPrimary: 'Ver cardápio'
   },
   about: {
     label: 'Sobre o bar',
@@ -23,7 +22,7 @@ const defaultSiteData = {
   },
   highlights: [
     'Ambiente rústico e aconchegante',
-    'Bebidas artesanais e coquetéis especiais',
+    'Bebidas artesanais e especiais',
     'Petiscos preparados na hora',
     'Eventos com música ao vivo'
   ],
@@ -65,8 +64,6 @@ const defaultSiteData = {
     hours: 'Aberto de terça a domingo, das 17h às 00h',
     phone0: 'Tel: (33) 9994-7787',
     phone1: 'Tel: (31) 8419-9037',
-    cardHeading: 'Reserve sua mesa',
-    cardText: 'Envie uma mensagem com a data e o número de pessoas para garantir seu lugar.',
     email: 'contato@barbenrustico.com.br'
   },
   footer: {
@@ -91,7 +88,6 @@ function applySiteData(data) {
   setText('#hero-hint', data.hero.hint);
   setText('#hero-text', data.hero.text);
   setText('#hero-primary', data.hero.buttonPrimary);
-  setText('#hero-secondary', data.hero.buttonSecondary);
   setText('#about-label', data.about.label);
   setText('#about-heading', data.about.heading);
   setText('#about-text', data.about.text);
@@ -112,7 +108,6 @@ function applySiteData(data) {
   });
   setText('#contact-label', data.contact.label);
   setText('#contact-heading', data.contact.heading);
-  setText('#contact-address', data.contact.address);
   setText('#contact-hours', data.contact.hours);
 
   const phone0El = document.querySelector('#contact-phone0');
@@ -133,8 +128,6 @@ function applySiteData(data) {
     }
   }
 
-  setText('#contact-card-heading', data.contact.cardHeading);
-  setText('#contact-card-text', data.contact.cardText);
   const emailLink = document.querySelector('#contact-email');
   if (emailLink) {
     emailLink.textContent = data.contact.email;
