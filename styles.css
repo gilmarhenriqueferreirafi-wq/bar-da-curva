@@ -251,18 +251,23 @@ textarea {
 
 .menu-figure img {
   width: 100%;
+  height: 220px;
   border-radius: 12px;
   margin-bottom: 1rem;
   object-fit: cover;
-  aspect-ratio: 4 / 3;
-   max-height: 190px;
-   display: block;
+  display: block;
 }
 
 .menu-item {
   padding: 1.4rem;
   border-radius: 16px;
   border: 1px solid var(--border);
+}
+
+@media (max-width: 900px) {
+  .menu-figure img {
+    height: auto;
+  }
 }
 
 .menu-figcaption {
