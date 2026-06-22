@@ -249,6 +249,14 @@ textarea {
   padding: 2rem;
 }
 
+.menu-item img {
+  width: 100%;
+  border-radius: 22px;
+  margin-bottom: 1.5rem;
+  object-fit: cover;
+  height: 220px;
+}
+
 .menu-item h3,
 .event-card h3,
 .contact-card h3 {
