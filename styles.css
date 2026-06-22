@@ -301,6 +301,18 @@ textarea {
   display: block;
 }
 
+.contact a {
+  display: inline-block;
+  color: var(--text);
+  margin-bottom: 0.35rem;
+  line-height: 1.5;
+}
+
+.contact a:hover,
+.contact a:focus-visible {
+  color: var(--accent);
+}
+
 @media (max-width: 900px) {
   .menu-figure img {
     height: auto;
