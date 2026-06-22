@@ -61,13 +61,13 @@ const defaultSiteData = {
   contact: {
     label: 'Contato',
     heading: 'Venha nos visitar',
-    hours: 'Aberto de terça a domingo, das 17h às 00h',
+    hours: 'Aberto de quarta a domingo, das 17h às 00h',
     phone0: 'Tel: (33) 9994-7787',
     phone1: 'Tel: (31) 8419-9037',
-    email: 'contato@barbenrustico.com.br'
+    email: 'bardacurvariosaojoaosj@gmail.com'
   },
   footer: {
-    info: 'Bar da Curva • Rua da Curva, 123 • Aberto de terça a domingo'
+    info: 'Bar da curva • Area rural - Rio São João, Itatiaiuçu - MG, 35685-000 • Aberto de quarta a domingo'
   }
 };
 
@@ -134,6 +134,40 @@ function applySiteData(data) {
     emailLink.href = `mailto:${data.contact.email}`;
   }
   setText('#footer-info', data.footer.info);
+  updateStatusIndicator();
+}
+
+function updateStatusIndicator() {
+  const statusEl = document.querySelector('#status-indicator');
+  const statusText = document.querySelector('#status-text');
+  if (!statusEl || !statusText) return;
+
+  const now = new Date();
+  const weekday = now.getDay();
+  const hour = now.getHours();
+  const minute = now.getMinutes();
+  const currentMinutes = hour * 60 + minute;
+
+  const schedule = {
+    0: { open: 8 * 60, close: 15 * 60 },
+    1: null,
+    2: null,
+    3: { open: 15 * 60, close: 22 * 60 },
+    4: { open: 15 * 60, close: 22 * 60 },
+    5: { open: 15 * 60, close: 24 * 60 },
+    6: { open: 9 * 60, close: 24 * 60 }
+  };
+
+  const daySchedule = schedule[weekday];
+  const isOpen = daySchedule && currentMinutes >= daySchedule.open && currentMinutes < daySchedule.close;
+
+  if (isOpen) {
+    statusEl.classList.remove('closed');
+    statusText.textContent = 'Aberto agora';
+  } else {
+    statusEl.classList.add('closed');
+    statusText.textContent = 'Fechado agora';
+  }
 }
 
 const navToggle = document.querySelector('.nav-toggle');

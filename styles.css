@@ -64,6 +64,28 @@ textarea {
   padding: 1rem 0;
 }
 
+.status-indicator {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.7rem 1rem;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  min-width: 140px;
+  text-align: center;
+  color: #111;
+  background: #39b54a;
+}
+
+.status-indicator.closed {
+  background: #e03f3f;
+}
+
+.status-indicator span {
+  display: inline-block;
+}
+
 .brand {
   display: flex;
   align-items: center;
@@ -277,6 +299,40 @@ textarea {
 .menu-figcaption h3 {
   margin: 0 0 0.25rem 0;
   font-size: 1.1rem;
+}
+
+.schedule-card {
+  margin-top: 1.5rem;
+  padding: 1.5rem;
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border);
+}
+
+.schedule-card h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  color: var(--text);
+}
+
+.schedule-table th,
+.schedule-table td {
+  padding: 0.7rem 0.8rem;
+  text-align: left;
+}
+
+.schedule-table th {
+  font-weight: 700;
+  width: 42%;
+}
+
+.schedule-table tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.04);
 }
 
 .menu-figcaption p {
