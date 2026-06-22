@@ -114,8 +114,25 @@ function applySiteData(data) {
   setText('#contact-heading', data.contact.heading);
   setText('#contact-address', data.contact.address);
   setText('#contact-hours', data.contact.hours);
-  setText('#contact-phone0', data.contact.phone0);
-  setText('#contact-phone1', data.contact.phone1);
+
+  const phone0El = document.querySelector('#contact-phone0');
+  if (phone0El && data.contact.phone0) {
+    phone0El.textContent = data.contact.phone0;
+    if (phone0El.tagName === 'A') {
+      const cleaned = data.contact.phone0.replace(/[^+\d]/g, '');
+      phone0El.href = `tel:${cleaned}`;
+    }
+  }
+
+  const phone1El = document.querySelector('#contact-phone1');
+  if (phone1El && data.contact.phone1) {
+    phone1El.textContent = data.contact.phone1;
+    if (phone1El.tagName === 'A') {
+      const cleaned1 = data.contact.phone1.replace(/[^+\d]/g, '');
+      phone1El.href = `tel:${cleaned1}`;
+    }
+  }
+
   setText('#contact-card-heading', data.contact.cardHeading);
   setText('#contact-card-text', data.contact.cardText);
   const emailLink = document.querySelector('#contact-email');
