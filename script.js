@@ -32,20 +32,20 @@ const defaultSiteData = {
     heading: 'Sabores feitos para compartilhar',
     items: [
       {
-        title: 'Tábuas rústicas',
-        text: 'Frios selecionados, queijos e pães artesanais para petiscar com a família.'
+        title: 'Seleção de Cervejas',
+        text: 'Brahma, Skol e Heineken — garrafas e latas geladas para a roda.'
       },
       {
-        title: 'Coquetéis especiais',
-        text: 'Drinks autorais preparados com ingredientes frescos e toques rústicos.'
+        title: 'Porção Batata & Linguiça',
+        text: 'Porção generosa com batatas crocantes e linguiça suculenta — ideal para compartilhar.'
       },
       {
-        title: 'Cervejas artesanais',
-        text: 'Variedade de rótulos nacionais e importados para acompanhar a noite.'
+        title: 'Iscas de Peixe',
+        text: 'Iscas crocantes servidas com molho especial e limão — leve e saboroso.'
       },
       {
-        title: 'Petiscos clássicos',
-        text: 'Bolinho de arroz, fritas temperadas e outras delícias que fazem sucesso.'
+        title: 'Torresmo Crocante',
+        text: 'Torresmo sequinho e crocante — porção para dividir com os amigos.'
       }
     ]
   },
