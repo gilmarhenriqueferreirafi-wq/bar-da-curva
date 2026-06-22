@@ -14,10 +14,18 @@ const defaultSiteData = {
       'No Bar da Curva você encontra petiscos saborosos, cervejas artesanais e uma atmosfera rústica com conforto caseiro.',
     buttonPrimary: 'Ver cardápio',
     buttonSecondary: 'Reservar mesa'
-        {
-          title: 'Brasil x Escócia',
-          text: 'Transmissão ao vivo — venha torcer com a galera!'
-        }
+  },
+  about: {
+    label: 'Sobre o bar',
+    heading: 'Um espaço rústico para celebrar com os amigos',
+    text:
+      'O Bar da Curva é o lugar ideal para quem quer relaxar, provar bebidas especiais e curtir boa música. Aqui, o atendimento é familiar, o ambiente é acolhedor e cada detalhe foi pensado para você se sentir em casa.'
+  },
+  highlights: [
+    'Ambiente rústico e aconchegante',
+    'Bebidas artesanais e coquetéis especiais',
+    'Petiscos preparados na hora',
+    'Eventos com música ao vivo'
   ],
   menu: {
     label: 'Cardápio',
@@ -46,15 +54,6 @@ const defaultSiteData = {
     heading: 'Programação para os melhores encontros',
     items: [
       {
-        title: 'Happy Hour',
-        text: 'Todos os dias a partir das 17h com descontos em bebidas selecionadas.'
-      },
-      {
-        title: 'Música ao Vivo',
-        text: 'Sextas e sábados com artistas locais e repertório variado.'
-      },
-      {
-        title: 'Noite de jogos',
         title: 'Brasil x Escócia',
         text: 'Transmissão ao vivo — venha torcer com a galera!'
       }
