@@ -22,7 +22,7 @@ const defaultSiteData = {
   },
   highlights: [
     'Ambiente rústico e aconchegante',
-    'Bebidas artesanais e especiais',
+    'Bebidas geladas',
     'Petiscos preparados na hora',
     'Eventos com música ao vivo'
   ],
