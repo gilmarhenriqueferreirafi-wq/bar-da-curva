@@ -1,0 +1,21 @@
+# Arquivos locais e dados gerados
+.env
+.env.*
+*.log
+__pycache__/
+node_modules/
+
+# Credenciais, sessões e chaves
+*credential*
+*credencial*
+*secret*
+*senha*
+*password*
+*token*
+*session*
+*cookie*
+*.pem
+*.key
+
+# Configurações pessoais do editor
+.vscode/settings.json

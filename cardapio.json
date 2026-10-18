@@ -1,0 +1,92 @@
+{
+  "categorias": [
+    {
+      "id": "cerveja-lata",
+      "nome": "Cerveja Lata",
+      "itens": [
+        { "id": "heineken-lata", "nome": "Heineken", "preco": 10.0, "tem": true },
+        { "id": "caracu-lata", "nome": "Caracu", "preco": 10.0, "tem": true },
+        { "id": "brahma-lata", "nome": "Brahma", "preco": 9.0, "tem": true },
+        { "id": "kaiser-lata", "nome": "Kaiser", "preco": 7.0, "tem": true },
+        { "id": "antarctica-lata", "nome": "Antarctica", "preco": 8.0, "tem": true },
+        { "id": "original-lata", "nome": "Original", "preco": 10.0, "tem": true },
+        { "id": "alcool-zero-b-lata", "nome": "0% álcool B", "preco": 7.0, "tem": true },
+        { "id": "alcool-zero-h-lata", "nome": "0% álcool H", "preco": 10.0, "tem": true }
+      ]
+    },
+    {
+      "id": "cerveja-garrafa",
+      "nome": "Cerveja Garrafa",
+      "itens": [
+        { "id": "brahma-garrafa", "nome": "Brahma", "preco": 13.0, "tem": true },
+        { "id": "kaiser-garrafa", "nome": "Kaiser", "preco": 10.0, "tem": true },
+        { "id": "antarctica-garrafa", "nome": "Antarctica", "preco": 11.0, "tem": true },
+        { "id": "original-garrafa", "nome": "Original", "preco": 15.0, "tem": true },
+        { "id": "skol-garrafa", "nome": "Skol", "preco": 11.0, "tem": true }
+      ]
+    },
+    {
+      "id": "refrigerante",
+      "nome": "Refrigerante",
+      "itens": [
+        { "id": "coca-2l", "nome": "Coca 2L", "preco": 15.0, "tem": true },
+        { "id": "coca-lata", "nome": "Coca lata", "preco": 7.0, "tem": true },
+        { "id": "coca-ks", "nome": "Coca KS", "preco": 5.0, "tem": true },
+        { "id": "refri-200ml", "nome": "Refri 200 ml", "preco": 3.5, "tem": true }
+      ]
+    },
+    {
+      "id": "dose",
+      "nome": "Dose",
+      "itens": [
+        { "id": "conhaque-mel", "nome": "Conhaque Mel", "preco": 6.0, "tem": true },
+        { "id": "conhaque", "nome": "Conhaque", "preco": 6.0, "tem": true },
+        { "id": "campari", "nome": "Campari", "preco": 13.0, "tem": true },
+        { "id": "paratudo", "nome": "Paratudo", "preco": 5.0, "tem": true },
+        { "id": "vinho", "nome": "Vinho", "preco": 12.0, "tem": true },
+        { "id": "catuaba", "nome": "Catuaba", "preco": 5.0, "tem": true },
+        { "id": "canelinha", "nome": "Canelinha", "preco": 5.0, "tem": true },
+        { "id": "cachaca", "nome": "Cachaça", "preco": 3.0, "tem": true },
+        { "id": "cachaca-serena", "nome": "Cachaça Serena", "preco": 5.0, "tem": true },
+        { "id": "misturadao", "nome": "Misturadão", "preco": 10.0, "tem": true }
+      ]
+    },
+    {
+      "id": "salgado",
+      "nome": "Salgado",
+      "itens": [
+        { "id": "coxinha", "nome": "Coxinha", "preco": 7.0, "tem": true },
+        { "id": "enroladinho", "nome": "Enroladinho", "preco": 7.0, "tem": true },
+        { "id": "pastel", "nome": "Pastel", "preco": 7.0, "tem": true }
+      ]
+    },
+    {
+      "id": "variados",
+      "nome": "Variados",
+      "itens": [
+        { "id": "amendoim", "nome": "Amendoim", "preco": 3.0, "tem": true },
+        { "id": "batata-pote", "nome": "Batata Pote", "preco": 15.0, "tem": true },
+        { "id": "gulao-120g", "nome": "GULÃO 120g", "preco": 5.0, "tem": true },
+        { "id": "gulao", "nome": "GULÃO", "preco": 7.0, "tem": true },
+        { "id": "chiclete", "nome": "Chiclete", "preco": 0.4, "tem": true },
+        { "id": "drops-kids", "nome": "Drops KIDS", "preco": 3.0, "tem": true },
+        { "id": "bala-sortida", "nome": "Bala sortida", "preco": 0.1, "tem": true },
+        { "id": "pacoca", "nome": "Paçoca", "preco": 0.5, "tem": true },
+        { "id": "gula", "nome": "GULA", "preco": 4.0, "tem": true }
+      ]
+    },
+    {
+      "id": "porcao",
+      "nome": "Porção",
+      "itens": [
+        { "id": "batata-porcao", "nome": "Batata", "preco": 20.0, "tem": true },
+        { "id": "batata-pernil", "nome": "Batata c/ Pernil", "preco": 50.0, "tem": true },
+        { "id": "batata-tilapia", "nome": "Batata c/ Tilápia", "preco": 65.0, "tem": true },
+        { "id": "batata-contra-file", "nome": "Batata c/ Contra filé", "preco": 65.0, "tem": true },
+        { "id": "figado-jilo", "nome": "Fígado c/ Jiló", "preco": 24.0, "tem": true },
+        { "id": "figado-acebolado", "nome": "Fígado acebolado", "preco": 20.0, "tem": true },
+        { "id": "figado-galinha", "nome": "Fígado de Galinha", "preco": 15.0, "tem": true }
+      ]
+    }
+  ]
+}

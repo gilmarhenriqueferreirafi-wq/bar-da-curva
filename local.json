@@ -1,0 +1,16 @@
+{
+  "nome": "Bar da Curva",
+  "nomeCurto": "Curva Bar",
+  "endereco": "Bar da Curva • Área rural - Rio São João, Itatiaiuçu - MG, 35685-000",
+  "mapsUrl": "https://maps.app.goo.gl/MZ2V7VdCmqUQoNyDA",
+  "telefone": "(33) 9994-7787",
+  "instagram": "@barda_curvasj",
+  "horarios": {
+    "seg-ter": "Fechado",
+    "qua-qui": "15h às 22h",
+    "sex": "15h às 00h",
+    "sab": "09h às 00h",
+    "dom": "08h às 15h"
+  },
+  "logoUrl": "assets/logo.png"
+}
